@@ -37,10 +37,10 @@ function checkLogged() {
         logged = session;
     }
 
-    if (!logged) {
-        window.location.href = "index.html";
-        return;
-    }
+    //if (!logged) {
+        //window.location.href = "index.html";
+        //return;
+   // }
 
     const dataUser = localStorage.getItem(logged);
     if (dataUser) {
